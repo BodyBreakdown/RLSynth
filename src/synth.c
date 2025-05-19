@@ -6,7 +6,7 @@ int KeyboardKeyToMIDI(KeyboardKey key, int octave)
     switch (key)
     {
     case KEY_A:
-        midiNote = 24; // C4
+        midiNote = 24; 
         break;
     case KEY_W:
         midiNote = 25;
@@ -33,7 +33,7 @@ int KeyboardKeyToMIDI(KeyboardKey key, int octave)
         midiNote = 32;
         break;
     case KEY_H:
-        midiNote = 33; // A4 = 440 Hz
+        midiNote = 33;
         break;
     case KEY_U:
         midiNote = 34;
@@ -42,7 +42,7 @@ int KeyboardKeyToMIDI(KeyboardKey key, int octave)
         midiNote = 35;
         break;
     case KEY_K:
-        midiNote = 36; // C5
+        midiNote = 36;
         break;
     case KEY_O:
         midiNote = 37;

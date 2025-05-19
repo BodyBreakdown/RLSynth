@@ -24,7 +24,6 @@ static inline float FastSin(float x)
 
 static inline float ProcessFilter(LowpassFilter *f, float input)
 {
-
     float feedback = f->resonance * (1.0f - 0.15f * f->cutoff * f->cutoff);
 
     float buf0 = f->buf0;
