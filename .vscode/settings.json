@@ -1,0 +1,31 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/*.o": true,
+		"**/*.exe": true,
+	},
+	"files.associations": {
+		"iosfwd": "c",
+		"synth.h": "c",
+		"*.m": "c",
+		"string.h": "c",
+		"math.h": "c",
+		"resource_dir.h": "c",
+		"raygui.h": "c",
+		"raylib.h": "c",
+		"atomic": "c",
+		"compare": "c",
+		"cstddef": "c",
+		"limits": "c",
+		"memory": "c",
+		"type_traits": "c",
+		"vector": "c",
+		"xmemory": "c",
+		"xstring": "c",
+		"xutility": "c"
+	}
+}
